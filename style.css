@@ -1,0 +1,802 @@
+@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Nimbus Sans L', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f1efef;
+}
+
+main {
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+    font-weight: 600;
+}
+
+nav #left,
+nav #right {
+    font-size: 15px;
+}
+
+nav #left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 45px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+#centra {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#hero {
+    width: 100%;
+    margin-top: 13vw;
+    padding: 0 10vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#sustain {
+    width: 10vw;
+}
+
+#sustain p {
+    width: 140%;
+    text-transform: capitalize;
+    font-weight: 600;
+    opacity: 0.5;
+    line-height: 1;
+    font-size: 12px;
+    margin: 15px 0;
+}
+
+#sustain #susimagewrapper {
+    width: 100%;
+    height: 15vw;
+}
+
+#susimagewrapper img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#empher {
+    width: 30vw;
+    min-height: 43vw;
+    position: relative;
+}
+
+#empher #headings {
+    margin-bottom: -1vw;
+}
+
+#empher h1 {
+    font-size: 5vw;
+    font-weight: 500;
+    letter-spacing: -0.4vw;
+    line-height: 1;
+}
+
+#empher #imga img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#empher p {
+    margin: 30px 0;
+    font-size: 0.9vw;
+    letter-spacing: -0.01vw;
+    width: 50%;
+    position: relative;
+}
+
+#visit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#vcircle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    border: 1px solid #313030;
+    position: relative;
+    overflow: hidden;
+}
+
+#visit #vcircle i {
+    font-weight: 500;
+    color: #313030;
+    position: absolute;
+}
+
+#visit #vcircle:hover i {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#visit h3 {
+    font-weight: 500;
+    color: #313030;
+}
+
+#motive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 7vw 10vw;
+    margin-top: 3vw;
+}
+
+#motive h4 {
+    font-size: 0.7vw;
+    font-weight: 600;
+    color: #5c5959;
+}
+
+#motive p {
+    position: relative;
+    font-size: 1.1vw;
+    width: 80%;
+    line-height: 2vw;
+    margin-top: 3vw;
+    text-align: right;
+}
+
+#motive span {
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    border-radius: 100px;
+    margin: 0 10px -15px;
+    overflow: hidden;
+}
+
+#motive #twos,
+#motive #fours {
+    width: 90px;
+    height: 30px;
+    margin-bottom: -11px;
+}
+
+#motive #fives {
+    width: 70px;
+    height: 35px;
+    margin-bottom: -14px;
+}
+
+#motive span img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    display: block;
+}
+
+#pictures {
+    padding: 7vw 11vw 7vw 14vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#pleft {
+    text-align: left;
+    width: 15vw;
+}
+
+#pright {
+    text-align: right;
+    width: 20vw;
+}
+
+#pleft img {
+    width: 16vw;
+    height: 26vw;
+    margin-bottom: 1.5vw;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+#pright img {
+    width: 20vw;
+    height: 36vw;
+    margin-bottom: 1.5vw;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+#lcontent h2,
+#rcontent h2 {
+    width: 100%;
+    font-size: 1.5vw;
+    color: #000;
+    font-weight: 800;
+}
+
+#lcontent p,
+#rcontent p {
+    margin-top: 7px;
+    width: 100%;
+    font-size: 0.9vw;
+}
+
+#banner {
+    width: 100%;
+    margin-top: 4vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#bimg {
+    width: 70%;
+    height: 80vh;
+    position: relative;
+}
+
+#bimg img {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+#bimg img:first-child {
+    z-index: 2;
+    right: 0;
+}
+
+#bimg img:last-child {
+    z-index: 1;
+    left: 0;
+}
+
+#btext {
+    width: 20%;
+    margin-right: 2vw;
+    text-align: left;
+}
+
+#btext h1 {
+    font-size: 2.2vw;
+}
+
+#btext p {
+    margin-top: 20px;
+    font-size: 1vw;
+}
+
+#bimg img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 0% 75%;
+    object-position: 0% 75%;
+}
+
+#future {
+    margin: 12vw 0 5vw;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#future video {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    -webkit-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+#ftext {
+    position: absolute;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 1.2vw 3vw;
+    border-radius: 20px;
+}
+
+#ftext h1 {
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+#ftext button {
+    cursor: pointer;
+    margin-top: 10px;
+    text-transform: capitalize;
+    padding: 0.8vw 1.7vw;
+    font-size: 0.6vw;
+    font-weight: 500;
+    background-color: #eceaea;
+    border-radius: 100px;
+    border: 1px solid #414040;
+    -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+    -o-transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#ftext button:hover {
+    background-color: #414040;
+    color: #ffffff;
+}
+
+#future:hover video {
+    opacity: 1;
+}
+
+@media (min-width: 601px) and (max-width: 950px) {
+    nav {
+        padding: 3vw 5vw;
+    }
+
+    nav #left,
+    nav #right {
+        font-size: 15px;
+    }
+
+    nav #left {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 15px;
+    }
+
+    #centra {
+        left: 55%;
+        font-size: 17px;
+    }
+
+    #hero {
+        margin-top: 17vw;
+        padding: 0 5vw;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    #sustain {
+        width: 99%;
+    }
+
+    #sustain p {
+        width: 100%;
+        font-size: 14px;
+        margin: 12px 0;
+    }
+
+    #sustain #susimagewrapper {
+        width: 75%;
+        height: 50vh;
+    }
+
+    #empher {
+        width: 100%;
+        min-height: 50vw;
+    }
+
+    #empher #headings {
+        margin: 9vh 0 1vh 0;
+    }
+
+    #empher h1 {
+        font-size: 13vw;
+    }
+
+    #empher p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    #visit {
+        margin: 100px 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #vcircle {
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+
+    #visit h3 {
+        font-size: 20px;
+    }
+
+    #motive {
+        padding: 0 4vw;
+    }
+
+    #motive h4 {
+        font-size: 3vw;
+        position: absolute;
+    }
+
+    #motive p {
+        font-size: 3vw;
+        width: 100%;
+        line-height: 6vw;
+        margin-top: 10vw;
+        text-align: justify;
+    }
+
+    #motive span {
+        width: 100px;
+        height: 30px;
+        margin: 0 2px -7px;
+    }
+
+    #pictures {
+        padding: 20vw 5vw 17vw 5vw;
+    }
+
+    #pleft,
+    #pright {
+        width: 40vw;
+    }
+
+    #pleft img {
+        width: 35vw;
+        height: 50vh;
+    }
+
+    #pright img {
+        width: 40vw;
+        height: 72vh;
+    }
+
+    #lcontent h2,
+    #rcontent h2 {
+        font-size: 4.5vw;
+    }
+
+    #lcontent p,
+    #rcontent p {
+        font-size: 2.5vw;
+    }
+
+    #banner {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    #bimg {
+        width: 90%;
+        height: 70vh;
+    }
+
+    #btext {
+        width: 90%;
+        margin-left: 2vw;
+        margin-top: 5vh;
+    }
+
+    #btext h1 {
+        font-size: 5.2vw;
+    }
+
+    #btext p {
+        font-size: 2.5vw;
+    }
+
+    #future {
+        margin: 3vh 0;
+        max-height: 50vh;
+    }
+
+    #ftext {
+        padding: 3.5vw 7vw;
+    }
+
+    #ftext h1 {
+        font-size: 4vw;
+    }
+
+    #ftext button {
+        padding: 2vw 5vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        padding: 4vw 5vw;
+    }
+
+    nav #left,
+    nav #right {
+        font-size: 14px;
+    }
+
+    nav #left {
+        display: none;
+    }
+
+    #centra {
+        left: 80%;
+        font-size: 17px;
+    }
+
+    #hero {
+        margin-top: 15vw;
+        padding: 0 5vw;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    #sustain {
+        width: 98%;
+    }
+
+    #sustain p {
+        width: 100%;
+        font-size: 14px;
+        margin: 12px 0;
+    }
+
+    #sustain #susimagewrapper {
+        width: 75%;
+        height: 40vh;
+    }
+
+    #empher {
+        width: 100%;
+        min-height: 50vw;
+    }
+
+    #empher #headings {
+        margin: 9vh 0 1vh 0;
+    }
+
+    #empher h1 {
+        font-size: 13vw;
+    }
+
+    #empher p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    #visit {
+        margin: 100px 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    #vcircle {
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+
+    #visit h3 {
+        font-size: 20px;
+    }
+
+    #motive {
+        padding: 0 4vw;
+    }
+
+    #motive h4 {
+        font-size: 4vw;
+        position: absolute;
+    }
+
+    #motive #twos,
+    #motive #fours {
+        width: 80px;
+        height: 25px;
+        margin-bottom: -7px;
+    }
+
+    #motive p {
+        font-size: 4vw;
+        width: 100%;
+        line-height: 6vw;
+        margin-top: 10vw;
+        text-align: justify;
+    }
+
+    #motive span {
+        width: 90px;
+        height: 25px;
+        margin: 0 2px -7px;
+    }
+
+    #pictures {
+        padding: 20vw 5vw 17vw 5vw;
+    }
+
+    #pleft,
+    #pright {
+        width: 40vw;
+    }
+
+    #pleft img {
+        width: 40vw;
+        height: 30vh;
+    }
+
+    #pright img {
+        width: 40vw;
+        height: 42vh;
+    }
+
+    #lcontent h2,
+    #rcontent h2 {
+        font-size: 4.5vw;
+    }
+
+    #lcontent p,
+    #rcontent p {
+        font-size: 3vw;
+    }
+
+    #banner {
+        margin-top: 5vw;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    #bimg {
+        width: 90%;
+        height: 60vh;
+    }
+
+    #btext {
+        width: 90%;
+        margin-left: 2vw;
+        margin-top: 5vh;
+    }
+
+    #btext h1 {
+        font-size: 7.2vw;
+    }
+
+    #btext p {
+        font-size: 4vw;
+    }
+
+    #future {
+        margin: 0;
+        max-height: 30vh;
+    }
+
+    #ftext {
+        padding: 4vw 10vw;
+    }
+
+    #ftext h1 {
+        font-size: 4vw;
+    }
+
+    #ftext button {
+        padding: 2vw 5vw;
+        font-size: 2.5vw;
+    }
+}

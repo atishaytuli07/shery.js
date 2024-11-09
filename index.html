@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenLeaf Botanicals</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preload" href="./images/pinkgreenplant.jpg" as="image">
+    <link rel="preload" href="./images/pinkplant.jpg" as="image">
+    <link rel="preload" href="./images/back.mp4" as="video">
+</head>
+
+<body>
+    <main>
+        <div id="home">
+            <nav>
+                <div id="left">
+                    <a href="#" class="n-link">Home</a>
+                    <a href="#" class="n-link">Shop</a>
+                    <a href="#" class="n-link">Plant Care</a>
+                </div>
+                <a id="centra" href="#" class="n-link">Botanicals</a>
+                <div id="right">
+                    <a href="#" class="n-link">Our Story &nbsp;<i class="ri-arrow-right-up-line"></i></a>
+                </div>
+            </nav>
+
+            <div id="hero">
+                <div id="sustain" class="ani2">
+                    <h5>01.</h5>
+                    <h2>Eco-Friendly.</h2>
+                    <p>Committed to sustainable plant cultivation and eco-conscious practices.</p>
+                    <div id="susimagewrapper">
+                        <img src="./images/pinkgreenplant.jpg" alt="lush-green-plant" loading="eager">
+                    </div>
+                </div>
+
+                <div id="empher" class="ani2">
+                    <div id="headings">
+                        <h1>Chlorophylo</h1>
+                        <h1>Photosynthes</h1>
+                    </div>
+                    <div id="imga">
+                        <img src="./images/pinkplant.jpg" alt="beautiful-indoor-plant" data-scroll data-scroll-speed="1"
+                            loading="eager">
+                        <p>Bringing nature indoors with our curated selection of stunning, vibrant houseplants for every
+                            space.</p>
+                    </div>
+                </div>
+
+                <div id="visit" class="ani2">
+                    <div id="vcircle">
+                        <i class="ri-arrow-down-line"></i>
+                    </div>
+                    <h3>Explore our collection.</h3>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="motive">
+            <h4>OUR &nbsp;MISSION <i class="ri-leaf-line"></i></h4>
+            <p>At GreenLeaf Botanicals, <span id="ones"><img src="./images/shaljam.jpg" alt="succulent"
+                        loading="lazy"></span> we're
+                passionate about bringing the beauty of nature into your home. Our carefully curated selection of plants
+                ranges from low-maintenance succulents to <span id="twos"><img src="./images/grass.jpg" alt="fern"
+                        loading="lazy"></span> exotic tropical varieties. We believe in the power of plants to purify
+                air,
+                reduce stress, and enhance your living space. Our team of plant experts is dedicated <span
+                    id="threes"><img src="./images/pinkplant.jpg" alt="flowering-plant" loading="lazy"></span> to
+                helping you <span id="fours"><img src="./images/sea.jpg" alt="tropical-plant" loading="lazy"></span>
+                find the perfect green companion
+                for your lifestyle. Whether you're a seasoned plant parent or a beginner, we're here to guide you on
+                your botanical journey. <span id="fives"><img src="./images/bluegirl.jpg" alt="air-purifying-plant"
+                        loading="lazy"></span> Let's grow together!</p>
+        </div>
+
+        <div id="pictures">
+            <div id="pleft" class="imgg">
+                <img src="./images/grass.jpg" alt="ornamental-grass" loading="lazy">
+                <div id="lcontent">
+                    <h2>Elegance</h2>
+                    <p>Nature's serene beauty with ornamental grasses.</p>
+                </div>
+            </div>
+            <div id="pright" class="imgg">
+                <img src="./images/cloud.jpg" alt="air-purifying-plant" data-scroll data-scroll-speed="1"
+                    loading="lazy">
+                <div id="rcontent">
+                    <h2>Nature's Purifier</h2>
+                    <p>Breathe easier with our range of air-purifying plants for a healthier home.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="banner">
+            <div id="bimg">
+                <img src="./images/bottle.jpg" alt="biodegradable-packaging" loading="lazy">
+                <img src="./images/bottle2.jpg" alt="" loading="lazy">
+            </div>
+            <div id="btext">
+                <h1>Biodegradable</h1>
+                <h1>Packaging</h1>
+                <p>Committed to sustainability, eco-friendly choices for a better tomorrow.</p>
+            </div>
+        </div>
+
+        <div id="future">
+            <video muted loop autoplay playsinline src="./images/back.mp4"></video>
+            <div id="ftext">
+                <h1>Think of Future</h1>
+                <button>Join the Movement</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js" defer></script>
+    <script src="https://unpkg.com/sheryjs/dist/Shery.js" defer></script>
+    <script type="module" src="script.js" defer></script>
+</body>
+
+</html>
